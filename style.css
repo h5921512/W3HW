@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #edf2c5;
+}
+.container {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 53px;
+}
+.title {
+  color: #778b4e;
+  font-family: Arial;
+  font-weight: 800;
+  font-size: 44px;
+}
+.icons {
+  width: 15vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.icons img {
+  width: 25px;
+  height: 25px;
+}
+.btn {
+  width: 60px;
+  height: 25px;
+  border: 1px #778a50 solid;
+  background-color: #edf2c5;
+  color: #778a50;
+  border-radius: 3px;
+}
+.btn p {
+  font-family: Arial;
+  font-size: 12px;
+  text-align: center;
+  margin: 5px auto;
+  font-weight: 600;
+}
+.navbar {
+  margin-top: 5px;
+  width: 100%;
+  height: 43px;
+  display: flex;
+  background: #778a50;
+}
+.navbar ul {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar li {
+  font-size: 16px;
+  font-weight: 800;
+  font-family: Arial;
+  list-style: none;
+  color: #edf2c5;
+}
+.banner img {
+  margin: 30px auto;
+  width: 100%;
+}
+.section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.vegetables,
+.contact {
+  width: 45%;
+}
+.vegetables-title,
+.contact-title {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  width: 100%;
+  height: 45px;
+  background: #778a50;
+}
+.vegetables-title h2,
+.contact-title h2 {
+  font-size: 16px;
+  font-weight: 800;
+  font-family: Arial;
+  color: #edf2c5;
+}
+.vegetables-img {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.vegetables-img img {
+  width: 140;
+  height: 140px;
+}
+.contact-content {
+  padding: 0 15px;
+  margin: 15px 0;
+  background: #f7fbda;
+}
+.contact-content p {
+  color: #7d7d7d;
+  font-family: Arial;
+  font-size: 12px;
+  font-family: Arial;
+  padding: 15px 0;
+}
+.contact-content-description {
+  border-bottom: 1px solid black;
+  padding: 15px 0;
+}
+.footer {
+  width: 100%;
+  background: #778a50;
+  height: 60px;
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer p {
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+}
